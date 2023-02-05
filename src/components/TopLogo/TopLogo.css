@@ -1,0 +1,18 @@
+:root {
+    --green: #6da544;
+    --blue: #27aee1;
+    --yellow: #ffda44;
+    --default-blue: #03aeeb;
+    --default-green: #6bda55;
+    --default-yellow: #d7df23;
+    --background-blue: #daeef5;
+  }
+
+.top-logo {
+    background-color: white;
+    text-align: center;
+}
+
+.top-logo img {
+    max-width: 200px;
+}

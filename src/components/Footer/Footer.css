@@ -1,0 +1,31 @@
+:root {
+    --green: #6da544;
+    --blue: #27aee1;
+    --yellow: #ffda44;
+    --default-blue: #03aeeb;
+    --default-green: #6bda55;
+    --default-yellow: #d7df23;
+    --background-blue: #daeef5;
+  }
+
+.footer {
+    background: var(--blue);
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer p {
+    color: white;
+}
